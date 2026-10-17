@@ -23,14 +23,14 @@ images/                                    photos for this README
 Switch board: `UG-V1095C ver C0`. The red-cap tact switch in the middle is active‑low: its signal leg sits at 3.3 V (pull‑up) and goes to 0 V when pressed.
 
 <p>
-  <img src="images/board-front.jpg" alt="Switch board, front" width="360">
+  <img src="images/board-front.jpg" alt="Switch board, front, with solder points marked" width="360">
   <img src="images/board-back.jpg" alt="Switch board, back" width="360">
 </p>
 
 - **Top‑left DP**: common port. **IN1 / IN2** (bottom): the two switched ports. The switch is bidirectional.
 - **USB‑C**: auxiliary 5 V power. The **AMS1117** next to it makes 3.3 V for the logic.
 - **QFP chip (left)**: passive DP lane mux. **8‑pin chip** next to the button: button logic and LED driver.
-- **Button legs**: the 4 through‑hole pads in the middle of the back side are the tact switch's legs. These are the easiest place to solder the S1 and GND wires.
+- **Solder points** (marked red on the front photo): **S1 3.3V** = upper‑right leg of the button, **GND** = lower‑right leg of the button, **5V** = pad next to the AMS1117 regulator.
 
 | Switch board                 | NodeMCU |
 |------------------------------|---------|
